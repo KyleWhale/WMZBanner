@@ -82,7 +82,7 @@
                 attributes.transform3D = CATransform3DMakeScale(1.0, 1.0, 1.0);
             }
         }else{
-            attributes.transform3D = CATransform3DMakeScale(1.0, zoom, 1.0);
+            attributes.transform3D = CATransform3DMakeScale(zoom, zoom, 1.0);
         }
         if (self.param.wAlpha<1) {
             CGFloat collectionCenter =  self.collectionView.frame.size.width / 2 ;
